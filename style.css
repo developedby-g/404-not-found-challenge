@@ -1,0 +1,94 @@
+*{
+     margin:0;
+     padding:0;
+}
+body{
+     height:1080px;
+}
+header{
+    margin:40px 0px 0px 77px;
+    font-family: 'Inconsolata', monospace;
+    color:#333;
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+     
+}
+#scarecrow{
+    width: 539px;
+    height: 447px;
+    flex-shrink: 0;
+    margin:200px 0px 0px 77px;
+    
+}
+section{
+     display: flex;
+     
+}
+#content{
+     display: flex;
+     flex-direction:column;
+     justify-content: flex-start;
+     font-family:'Space Mono', monospace;
+    }
+    #content h1{
+         font-size: 64px;
+         font-weight: 700;
+         letter-spacing:-2.24px;
+         color:#333;
+         margin:200px 0px 0px 118px;
+    }
+    #content p{
+         font-size: 24px;
+         letter-spacing: -0.84px;
+         color:#4f4f4f;
+         width:381px;
+         margin:36px 0px 0px 118px;
+    }
+    #content button{
+        width: 216px;
+        height: 68px;
+        flex-shrink: 0;
+        margin-top:px;
+        background-color: #333;
+        border:none;
+        outline:none;
+        color: #FFF;
+        font-size: 14px;
+        font-family: Space Mono;
+        font-weight: 700;
+        letter-spacing: -0.49px;
+        text-transform: uppercase;
+        margin:64px 0px 0px 118px;
+    }
+    @media screen and  (max-width:375px){
+          section{
+              flex-direction: column;
+          }
+          header{
+              margin:20px 0px 0px 24px;
+          }
+          #scarecrow{
+            width: 286.83px;
+            height: 238px;
+            margin:64px 44px 0px 44px;
+            flex-shrink: 0;
+          }
+          #content h1{
+            font-size: 48px;
+            font-family: Space Mono;
+            font-weight: 700;
+            width:350px;
+            letter-spacing: -1.68px;
+            margin :60px 0px 0px 24px;
+          }
+
+           #content p{
+             width:328px;
+            font-size: 18px;
+             margin:30px 0px 0px 24px;
+           }
+           #content button{
+              margin:66px 0px 0px 24px;
+           }
+    }
